@@ -1,0 +1,129 @@
+.about {
+  background-color: #dce6e1;
+  border-radius: 30px;
+
+  .about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    .image_container {
+      flex: 1;
+      display: flex;
+      margin: 10% auto;
+      background-color: #dce6e1;
+      border-radius: 10%;
+      box-shadow: 0 0 30px rgb(0, 40, 37);
+
+      img {
+        // height: 100%;
+        overflow: hidden;
+      }
+    }
+
+    .about_text {
+      color: rgb(0, 40, 37);
+
+      h4 {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem;
+        width: 90%;
+        font-weight: 200;
+      }
+    }
+  }
+
+  .about_button {
+    width: 500px;
+
+    button {
+      position: relative;
+      padding: 18px;
+      border: 1px solid rgb(0, 40, 37);
+      background-color: #fff;
+      font-weight: 600;
+      letter-spacing: 1px;
+      justify-content: center;
+      // background-color: transparent;
+      border-radius: 16px;
+      margin-right: 22px;
+      color: rgb(0, 40, 37);
+      cursor: pointer;
+      z-index: 1;
+      overflow: hidden;
+      transition: 3.5s;
+
+      &:hover {
+        color: #fff;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgb(0, 40, 37);
+        border-radius: 14px;
+        z-index: -1;
+        transition: width 1s;
+        overflow: hidden;
+      }
+      &:hover::before {
+        width: 100%;
+      }
+    }
+
+    &::before {
+      background-color: rgb(0, 40, 37);
+    }
+    &:hover {
+      color: #faf6f6;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+
+    .image_container {
+margin: 0 auto 2rem;
+      justify-content: center; 
+      align-items: center;     
+      img {
+        width: 70%; 
+        height: auto; 
+      }
+    }
+
+    .about_text {
+      h4 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        width: 100%;
+      }
+    }
+
+    .about_button {
+      width: 100%;
+
+      button {
+        padding: 14px;
+        font-size: 1.5rem; /* Increase button size on mobile */
+      }
+    }
+  }
+}
