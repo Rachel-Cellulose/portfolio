@@ -6,16 +6,16 @@ import "boxicons/css/boxicons.min.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-import Main from "./components/Main/Main";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 
 const App = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
+      duration: 1000,
     });
   }, []);
+
   return (
     <div className="main_wrapper">
       <Navbar />
@@ -32,11 +32,11 @@ const App = () => {
       </section>
 
       <section>
-        < Portfolio/>
+        <Portfolio />
       </section>
 
       <section>
-        <Contact/>
+        <Contact />
       </section>
     </div>
   );

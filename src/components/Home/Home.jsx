@@ -56,12 +56,20 @@ const Home = () => {
           />
 
           <div className="overlay">
-            <h3>
+            <motion.h3
+              initial="initial"
+              animate="animate"
+              variants={textVariants}
+            >
               Hello, I'm <br />
-            </h3>
-            <h1>
+            </motion.h3>
+            <motion.h1
+              initial="initial"
+              animate="animate"
+              variants={textVariants}
+            >
               ADEGBOYEGA SEUNFUNMI <br />
-            </h1>
+            </motion.h1>
             <h3 id="typed">
               <TypeEffect />
             </h3>
