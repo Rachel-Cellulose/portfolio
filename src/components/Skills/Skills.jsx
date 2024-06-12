@@ -1,13 +1,6 @@
 import React from "react";
 import "./Skills.scss";
 
-import JavascriptIcon from "../../icons/javascript.svg";
-import ReactIcon from "../../icons/react.svg";
-import VueIcon from "../../icons/vuedotjs.svg";
-import GithubIcon from "../../icons/github.svg";
-import CssIcon from "../../icons/css3.svg";
-import NetlifyIcon from "../../icons/netlify.svg";
-import SassIcon from "../../icons/sass.svg";
 
 const Skills = () => {
   return (
