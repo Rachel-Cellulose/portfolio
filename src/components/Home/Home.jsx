@@ -54,7 +54,7 @@ const Home = () => {
             loop
             muted
             playsInline
-            controls
+            // controls
           />
 
           <div className="overlay">
