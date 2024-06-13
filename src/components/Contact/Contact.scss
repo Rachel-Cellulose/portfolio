@@ -45,7 +45,6 @@
     width: 30%;
     height: 4rem;
     margin: 20px auto; 
-    // margin: 3rem 1.5rem 3rem 0;
     justify-content: center;
     align-items: center;
     transition: 0.5s ease;
@@ -57,4 +56,26 @@
       box-shadow: 0 0 1rem gray;
     }
   }
+}
+
+
+@media (max-width: 768px) {
+  .contact{
+
+    form{
+.btn{
+  width: 50%;
+
+  &:hover {
+      background:#fff ;
+      color: rgb(0, 40, 37);
+      box-shadow: 0 0 1rem gray;
+      cursor: pointer;
+    }
+}
+  }
+    }
+
+
+
 }

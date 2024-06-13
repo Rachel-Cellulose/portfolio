@@ -18,7 +18,6 @@
   margin: 0 auto;
   top: 0;
   z-index: 100;
-  // check this z-index later to 1000
   border: 1px solid rgb(0, 40, 37);
 
   .wrapper {
@@ -98,6 +97,8 @@
     display: flex;
     gap: 30px;
   }
+
+  
 }
 
 .navbar__menu {
@@ -109,6 +110,25 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(2, 68, 63);
+    cursor: pointer;
+
+
+    .sidebar_wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    padding: 1rem;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(2, 68, 63);
+    box-shadow: 0 0 20px rgb(0, 68, 64);
+    }
 
   svg {
     
@@ -138,6 +158,8 @@
       height: 35px;
       color: rgb(240, 242, 245);
       margin: 2rem 1rem;
+            cursor: pointer;
+
     }
 
     ul {

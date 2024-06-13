@@ -31,7 +31,7 @@ const About = () => {
             </p>
             
             <motion.div className="about_button">
-              <a href="#Skills">
+              <a href="#portfolio">
                 <button className="btn btn-color"> Check Out My Work</button>
               </a>
             </motion.div>

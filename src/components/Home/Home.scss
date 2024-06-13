@@ -4,28 +4,24 @@
   align-items: center;
   gap: 2.5rem;
 
-
-
   .video-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.video-bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-}
-
-  .video-container {
-    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+        border-radius: 20px;
+    overflow: hidden;
   }
+
+  .video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+
 
   section {
     display: flex;
@@ -91,6 +87,7 @@
       background-color: rgb(221, 233, 232);
       color: rgb(0, 40, 37);
       box-shadow: 0 0 1rem rgb(221, 233, 232);
+      cursor: pointer;
     }
   }
 
@@ -115,12 +112,11 @@
     display: flex;
     margin: 10% auto;
     border-radius: 30px;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
+    justify-content: center;
+    align-items: center;
 
     img {
-      // max-width: 100%; /* Ensure the image fits within its container */
-      height: auto; /* Maintain aspect ratio */
+      height: auto;
 
       padding: 0 5%;
       box-shadow: 0 0 2rem rgb(221, 233, 232);
@@ -137,7 +133,7 @@
 
 @media (max-width: 991px) {
   .home {
-   section {
+    section {
       .video-container {
         position: relative;
         display: flex;
@@ -146,8 +142,9 @@
 
         .overlay {
           padding: 40px;
-          background: transparent; /* Remove background on larger screens */
-          
+          background: transparent;
+          box-shadow: 0 0 0 0.2rem rgb(0, 40, 37);
+
           h1 {
             font-size: 4rem;
           }
@@ -176,8 +173,6 @@
   }
 }
 
-
-
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -187,13 +182,13 @@
   section {
     flex-direction: column;
     gap: 2rem;
-    // padding: 2rem 3%;
   }
 
   .Home_img {
     margin: 0 auto;
     width: 80%;
     order: -1;
+    padding-top: 5rem;
   }
 
   .overlay {
@@ -224,7 +219,7 @@
   .btn {
     padding: 0.8rem 2rem;
     font-size: 1.2rem;
-  }
+  }    
 }
 
 @media (max-width: 480px) {
@@ -243,6 +238,7 @@
     margin: 0 auto;
     width: 100%;
     order: -1;
+    padding-top: 6rem;
   }
 
   .overlay {
