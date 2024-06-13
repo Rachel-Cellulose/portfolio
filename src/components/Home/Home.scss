@@ -58,7 +58,7 @@
   }
 
   p {
-    margin-top: 8px;
+    margin-top: 16px;
     font-size: 1.6rem;
     width: 80%;
   }
@@ -247,7 +247,8 @@
     z-index: 100;
 
     p{
-      color: red;
+      width: 100%;
+      text-align: left;
     }
     h3 {
       font-size: 2.5rem;

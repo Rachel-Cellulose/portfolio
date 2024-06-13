@@ -77,11 +77,10 @@ const Home = () => {
             </h3>
 
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              assumenda, quod cum id laborum sunt animi magni inventore fugiat
-              qui.
+              With a strong foundation in software development, I specialize in
+              creating efficient and scalable applications.
             </p>
-
+            <p>Let's collaborate to build solutions that make a difference.</p>
             <motion.div className="social_icon" variants={itemVariants}>
               <motion.img
                 src={linkedin}

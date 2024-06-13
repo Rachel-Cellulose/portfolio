@@ -6,7 +6,7 @@ import Frame5 from "../../images/Frame5.png"
 import Frame6 from "../../images/Frame6.png";
 
 const dataEpic = () => {
-  window.open("https://portfoliorachel.netlify.app/");
+  window.open("https://dataepic.netlify.app");
 };
 
 const urlShortener = () => {
