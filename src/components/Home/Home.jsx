@@ -53,6 +53,8 @@ const Home = () => {
             autoPlay
             loop
             muted
+            playsInline
+            controls
           />
 
           <div className="overlay">
