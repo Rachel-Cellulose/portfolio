@@ -9,7 +9,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 2rem;
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -27,14 +27,16 @@
       }
 
       p {
-        font-size: 1.5rem;
-        font-weight: 200;
+        margin-top: 20px;
+        font-size: 1.6rem;
+        font-weight: 400;
       }
     }
   }
 
   .skills_container {
-    width: 50%;
+    width: 100%;
+    margin-top: 2rem;
   }
 
   .skills_main {
@@ -65,8 +67,7 @@
   .stack {
     margin-top: 40px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    padding-bottom: 2rem;
     border-radius: 5px;
 
     .stack-container {

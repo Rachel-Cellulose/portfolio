@@ -62,6 +62,7 @@ const Home = () => {
               initial="initial"
               animate="animate"
               variants={textVariants}
+              className=" first_text"
             >
               Hello, I'm <br />
             </motion.h3>

@@ -17,22 +17,33 @@ const Skills = () => {
           <div className="exp_text">
             <h3>My Experience</h3>
             <div className="skills_text">
+              {/* <p>
+                I have a solid background in frontend development, gained
+                through my studies and hands-on experience.
+              </p> */}
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                facere, illo labore doloribus minima consectetur! facere, illo
-                labore doloribus minima consectetur! facere, illo labore
-                doloribus minima consectetur!
+                My journey started at Zuri where i enrolled for a data-analytic
+                course using excel and powerBI.
+              </p>
+              <p>
+                During my time at ALX_AFRICA, I further developed my ability to
+                build and maintain complex frontend projects.{" "}
+              </p>
+              
+
+              <p>
+                And lastly at AltSchool Africa where I had the opportunity to
+                work on diverse projects that tested and expanded my technical
+                capabilities.
               </p>
             </div>
           </div>
 
-          <div></div>
           <div className="skills_container">
             <div className="skills_main">
               <div className="text">
                 <p>Mar 2023- April 2024</p>
                 <div>
-                
                   Alt_School
                   <br /> Frontend Development
                 </div>
@@ -40,14 +51,15 @@ const Skills = () => {
               <div className="text">
                 <p>June 2022- Oct 2023</p>
                 <div>
-                  
                   ALX_AFRICA
                   <br /> Frontend Development
                 </div>
               </div>
               <div className="text">
                 <p>May 2022 - Aug 2022</p>
-                <div> Zuri Team <br/> Frontend Development</div>
+                <div>
+                  Zuri Team <br /> Frontend Development
+                </div>
               </div>
             </div>
           </div>
